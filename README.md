@@ -65,3 +65,17 @@ stage = "pre_build"
 + command = "sh"
 command_arguments = ["-c", "npx tailwindcss -i input.css -o style/output.css"]
 ```
+
+## Deploy to Vercel
+
+Make sure you have the Vercel CLI installed
+
+```
+pnpm i -g vercel
+```
+
+Push build to vercel
+
+```
+vercel --prod
+```

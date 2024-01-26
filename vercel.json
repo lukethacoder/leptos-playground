@@ -1,6 +1,9 @@
 {
+  "buildCommand": "trunk build",
+  "installCommand": "cargo build",
   "github": {
     "enabled": false
   },
+  "outputDirectory": "dist",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
