@@ -1,6 +1,4 @@
 {
-  "buildCommand": "trunk build",
-  "installCommand": "cargo build",
   "github": {
     "enabled": false
   },
