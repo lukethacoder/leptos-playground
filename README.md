@@ -76,6 +76,8 @@ pnpm i -g vercel
 
 Push build to vercel
 
+> NOTE: this assumes you've already run `trunk build`
+
 ```
 vercel --prod
 ```
