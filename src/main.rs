@@ -1,5 +1,6 @@
 use leptos::*;
 mod app;
+mod tailwind_form;
 
 fn main() {
     console_error_panic_hook::set_once();
