@@ -12,3 +12,12 @@ console_log = "1.0.0"
 leptos = { version = "0.5.7", features = ["csr", "nightly"] }
 leptos_router = { version = "0.5.7", features = ["csr"] }
 log = "0.4.20"
+
+[profile.wasm-release]
+inherits = "release"
+opt-level = 'z'
+lto = true
+codegen-units = 1
+
+[package.metadata.leptos]
+lib-profile-release = "wasm-release"
