@@ -41,7 +41,7 @@ Make sure you've added the `wasm32-unknown-unknown` target so that Rust can comp
 rustup target add wasm32-unknown-unknown
 ```
 
-> Make sure you have TailwindCSS installed. You can manually run the `npx tailwindcss -i input.css -o style/output.css` command and it will ask if you want to install.
+> Make sure you have TailwindCSS installed. You can manually run the `npx @tailwindcss/cli -i input.css -o style/output.css` command and it will ask if you want to install.
 
 ## Development
 
